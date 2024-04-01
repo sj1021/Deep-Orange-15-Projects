@@ -1,1 +1,1 @@
-
+This simulink library contains the energy management controller. This takes in the power produced by the engine, the current battery state and then decides to limit the motor power. Also based on the battery SoC it will decide what the power output of the engine should be.
