@@ -3,7 +3,7 @@ clear
 clc
 close all
 
-data = load("KoH_4400_Feb_2021_CONFIDENTIAL.mat").KoH4400Feb2021CONFIDENTIAL1;
+data = load("KoH_4400_Feb_2021.mat").KoH4400Feb2021;
 data2 = load("2021 UTV-EMC-KOH Race_UPDATED.mat").data1;
 time = data(:,1);
 latG = data(:,2);
